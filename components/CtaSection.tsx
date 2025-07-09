@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const CtaSection: React.FC = () => {
@@ -11,14 +12,12 @@ const CtaSection: React.FC = () => {
           <p className="mt-4 text-lg text-primary-200 max-w-2xl mx-auto">
             Abandone as planilhas e a confusão. Comece a usar o PublisTracker hoje mesmo e ganhe mais tempo para o que realmente importa: criar conteúdo incrível.
           </p>
-          <div className="mt-8">
-            <a
-              href="/success"
-              className="inline-block whitespace-nowrap bg-white text-primary-600 font-bold px-8 py-4 rounded-lg shadow-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-75 transition-all transform hover:scale-105 duration-300"
-            >
-              Quero meu acesso gratuito
-            </a>
-          </div>
+          <a
+            href="/success"
+            className="mt-8 inline-block bg-white text-primary-600 font-bold px-6 py-3 sm:px-8 sm:py-4 rounded-lg shadow-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-75 transition-all transform hover:scale-105 duration-300"
+          >
+            Quero meu acesso gratuito
+          </a>
            <p className="mt-4 text-sm text-primary-300">Não precisa de cartão de crédito.</p>
         </div>
       </div>
