@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
         <div className="mt-10">
           <a
             href="#cta"
-            className="bg-primary-600 text-white font-bold px-8 py-4 rounded-lg shadow-lg hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-opacity-75 transition-transform transform hover:scale-105 duration-300"
+            className="inline-block bg-primary-600 text-white font-bold px-6 py-3 sm:px-8 sm:py-4 rounded-lg shadow-lg hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-opacity-75 transition-transform transform hover:scale-105 duration-300"
           >
             Organize suas publis gratuitamente
           </a>
