@@ -68,12 +68,14 @@ const SolutionSection: React.FC = () => {
             description="Acompanhe o progresso de cada 'publi' com um quadro Kanban intuitivo. Mova os cards e saiba exatamente em que pé está cada negociação."
             reverse={true}
             mockup={
-              <div className="bg-white rounded-xl p-4 shadow-xl border border-gray-200 transform rotate-1">
-                 <div className="flex space-x-3">
-                    <div className="bg-gray-100 rounded-lg p-2 flex-1"><h3 className="font-semibold text-gray-500 text-xs mb-2">Proposta</h3><div className="bg-white p-2 rounded-md shadow-sm border-l-4 border-yellow-500"><p className="text-xs font-semibold">Marca X</p></div></div>
-                    <div className="bg-gray-100 rounded-lg p-2 flex-1"><h3 className="font-semibold text-gray-500 text-xs mb-2">Negociando</h3><div className="bg-white p-2 rounded-md shadow-sm border-l-4 border-blue-500"><p className="text-xs font-semibold">Marca Y</p></div></div>
-                    <div className="bg-primary-600 rounded-lg p-2 flex-1 shadow-lg"><h3 className="font-semibold text-white text-xs mb-2">Aprovado</h3><div className="bg-white p-2 rounded-md shadow-sm border-l-4 border-green-500"><p className="text-xs font-semibold">Marca Z</p></div></div>
-                 </div>
+              <div className="bg-white rounded-xl p-4 shadow-xl border border-gray-200 transform-gpu hover:-rotate-1 transition-transform">
+                 <div className="overflow-x-auto scrollbar-hide">
+                    <div className="flex space-x-3 min-w-[380px]">
+                        <div className="bg-gray-100 rounded-lg p-2 flex-1"><h3 className="font-semibold text-gray-500 text-xs mb-2">Proposta</h3><div className="bg-white p-2 rounded-md shadow-sm border-l-4 border-yellow-500"><p className="text-xs font-semibold">Marca X</p></div></div>
+                        <div className="bg-gray-100 rounded-lg p-2 flex-1"><h3 className="font-semibold text-gray-500 text-xs mb-2">Negociando</h3><div className="bg-white p-2 rounded-md shadow-sm border-l-4 border-blue-500"><p className="text-xs font-semibold">Marca Y</p></div></div>
+                        <div className="bg-primary-600 rounded-lg p-2 flex-1 shadow-lg"><h3 className="font-semibold text-white text-xs mb-2">Aprovado</h3><div className="bg-white p-2 rounded-md shadow-sm border-l-4 border-green-500"><p className="text-xs font-semibold">Marca Z</p></div></div>
+                    </div>
+                </div>
               </div>
             }
           />
